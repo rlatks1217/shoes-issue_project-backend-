@@ -174,6 +174,7 @@ public class TradeBoardControllerImpl implements TradeBoardController{
 		
 		return nickName;
 	}
+	
 	@GetMapping(value="/alarm")
 	public String messageAlert(String userId) {
 	
